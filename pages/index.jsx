@@ -15,10 +15,10 @@ function Stat({ label, value }) {
 
 export default function Home() {
   const [answers, setAnswers] = useState({
-    name: "your name",
-    email: "your email",
+    name: "",
+    email: "",
     gender: "male/female",
-    age: "21-67",
+    age: "",
     height: "cm",
     weight: "kg",
     goal: "recomp",
